@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   webtop:
-    image: lscr.io/linuxserver/webtop:ubuntu-xfce
+    image: undaacid/ubuntu20_04:latest
     container_name: Ubuntu20_04
     security_opt:
       - seccomp:unconfined #optional
