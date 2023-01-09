@@ -1,7 +1,7 @@
 # ubuntu-fxce-rdp
 Docker Ubuntu 20.04 with fxce and RDP on web browser
 
-# Install
+## Installation
 ## copy this code on linux console
 > clone https://github.com/Universitas-Darwan-Ali/ubuntu-fxce-rdp && cd ubuntu-fxce-rdp && docker-compose up -d;
 
