@@ -1,4 +1,5 @@
-# ubuntu-fxce-rdp
+# Cloud PC
+## ubuntu-fxce-rdp
 Docker Ubuntu 20.04 with fxce and RDP on web browser
 
 ## Installation
