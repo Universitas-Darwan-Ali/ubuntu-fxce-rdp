@@ -3,9 +3,9 @@
 Docker Ubuntu 20.04 with fxce and RDP on web browser
 
 ## Installation
-## Login into Google Cloud Shell
-<https://console.cloud.google.com>
-## copy this code on Cloud Shell or your Linux Terminal
+[1] Login into Google Cloud Shell
+ <https://console.cloud.google.com>
+[2] Copy this code on Cloud Shell or your Linux Terminal
 > clone https://github.com/Universitas-Darwan-Ali/ubuntu-fxce-rdp && cd ubuntu-fxce-rdp && docker-compose up -d;
 
 # Tutorial
