@@ -2,7 +2,7 @@ version: "2.1"
 services:
   webtop:
     image: undaacid/ubuntu20_04:latest
-    container_name: Ubuntu20_04
+    container_name: CloudPC
     security_opt:
       - seccomp:unconfined #optional
     environment:
@@ -11,9 +11,9 @@ services:
       - TZ=Asia/Jakarta
       - SUBFOLDER=/ #optional
       - KEYBOARD=en-us-qwerty #optional
-      - TITLE=Ubuntu20_04 #optional
+      - TITLE=CloudPC #optional
     volumes:
-      - /home/sim/data:/config
+      - /config/data:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
       - 3002:3000
