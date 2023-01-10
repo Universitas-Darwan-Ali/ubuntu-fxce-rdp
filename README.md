@@ -7,7 +7,10 @@ Docker Ubuntu 20.04 with fxce and RDP on web browser
  <https://console.cloud.google.com>
  <br>
 [2] Copy this code and run it on Cloud Shell or your Linux Terminal
-> sudo su && cd ~ && mkdir ~/config/data && git clone https://github.com/Universitas-Darwan-Ali/ubuntu-fxce-rdp && cd ubuntu-fxce-rdp && docker-compose up -d && echo "CloudPC is Ready! Access Web Preview -> Change Port -> Change port to 3002 -> Click CHANGE AND PREVIEW";
+> sudo su
+ <br>
+[3] Copy this code and run it on Cloud Shell or your Linux Terminal
+> mkdir ~/config && git clone https://github.com/Universitas-Darwan-Ali/ubuntu-fxce-rdp && cd ubuntu-fxce-rdp && docker-compose up -d && echo "CloudPC is Ready! Access Web Preview -> Change Port -> Change port to 3002 -> Click CHANGE AND PREVIEW";
 <br>
 [3] CloudPC is Ready! Access Web Preview -> Change Port -> Change port to 3002 -> Click CHANGE AND PREVIEW
 
