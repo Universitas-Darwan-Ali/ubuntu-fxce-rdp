@@ -1,0 +1,23 @@
+version: "2.1"
+services:
+  webtop:
+    image: undaacid/ubuntu20_04:version2
+    container_name: Ubuntu20_04
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Jakarta
+      - SUBFOLDER=/ #optional
+      - KEYBOARD=en-us-qwerty #optional
+      - TITLE=Ubuntu20_04 #optional
+    volumes:
+      - /home/sim/data:/config
+      - /var/run/docker.sock:/var/run/docker.sock #optional
+    ports:
+      - 3002:3000
+    #devices:
+    #  - /dev/dri:/dev/dri #optional
+    shm_size: "1gb" #optional
+    restart: unless-stopped
